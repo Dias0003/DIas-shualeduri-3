@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>My Awesome Form</title>
+</head>
+<body>
+    <h1>Greetings Earthling!</h1>
+
+    <form>
+        <label for="userEmail">Your Galactic Email:</label>
+        <input type="email" class="email" id="userEmail" placeholder="Enter your email">
+
+        <label for="userPassword">Secret Code:</label>
+        <input type="password" class="password" id="userPassword" placeholder="Enter your secret code">
+
+        <label for="genderSelector">Your Species:</label>
+        <select id="genderSelector">
+            <option value="alien">Alien</option>
+            <option value="human">Human</option>
+            <option value="robot">Robot</option>
+        </select>
+
+        <label for="subscribeCheckbox">Subscribe to Space News:</label>
+        <input type="checkbox" id="subscribeCheckbox" name="subscribeCheckbox">
+
+        <button type="button" onclick="captureUserInput()">Beam Me Up!</button>
+    </form>
+
+    <script src="index.js"></script>
+  
+</body>
+</html>
